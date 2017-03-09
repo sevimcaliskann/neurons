@@ -1,0 +1,23 @@
+﻿Build started 1/23/2017 9:41:34.
+     1>Project "C:\Users\sevimcaliskan\Documents\Visual Studio 2013\Projects\ehehe\ehehe\ehehe.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\sevimcaliskan\opencv\build\install\include\opencv2 /IC:\Users\sevimcaliskan\opencv\build\install\include\opencv /IC:\Users\sevimcaliskan\opencv\build\install\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "linear svm.cpp" "poly-svm.cpp"
+         poly-svm.cpp
+     1>c:\users\sevimcaliskan\documents\visual studio 2013\projects\ehehe\ehehe\poly-svm.cpp(23): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sevimcaliskan\documents\visual studio 2013\projects\ehehe\ehehe\poly-svm.cpp(41): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sevimcaliskan\documents\visual studio 2013\projects\ehehe\ehehe\poly-svm.cpp(43): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sevimcaliskan\documents\visual studio 2013\projects\ehehe\ehehe\poly-svm.cpp(30): warning C4101: 'temp' : unreferenced local variable
+         linear svm.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sevimcaliskan\Documents\Visual Studio 2013\Projects\ehehe\Debug\ehehe.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\sevimcaliskan\opencv\build\install\x86\vc12\lib opencv_aruco310d.lib opencv_bgsegm310d.lib opencv_bioinspired310d.lib opencv_calib3d310d.lib opencv_ccalib310d.lib opencv_core310d.lib opencv_datasets310d.lib opencv_dnn310d.lib opencv_dpm310d.lib opencv_face310d.lib opencv_features2d310d.lib opencv_flann310d.lib opencv_fuzzy310d.lib opencv_highgui310d.lib opencv_imgcodecs310d.lib opencv_imgproc310d.lib opencv_line_descriptor310d.lib opencv_ml310d.lib opencv_objdetect310d.lib opencv_optflow310d.lib opencv_photo310d.lib opencv_plot310d.lib opencv_reg310d.lib opencv_rgbd310d.lib opencv_saliency310d.lib opencv_shape310d.lib opencv_stereo310d.lib opencv_stitching310d.lib opencv_structured_light310d.lib opencv_superres310d.lib opencv_surface_matching310d.lib opencv_text310d.lib opencv_tracking310d.lib opencv_ts310d.lib opencv_video310d.lib opencv_videoio310d.lib opencv_videostab310d.lib opencv_xfeatures2d310d.lib opencv_ximgproc310d.lib opencv_xobjdetect310d.lib opencv_xphoto310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sevimcaliskan\Documents\Visual Studio 2013\Projects\ehehe\Debug\ehehe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sevimcaliskan\Documents\Visual Studio 2013\Projects\ehehe\Debug\ehehe.lib" /MACHINE:X86 Debug\hitmiss.obj
+         Debug\Source.obj
+         "Debug\poly-svm.obj"
+         "Debug\linear svm.obj"
+         Debug\trackbar.obj
+         ehehe.vcxproj -> C:\Users\sevimcaliskan\Documents\Visual Studio 2013\Projects\ehehe\Debug\ehehe.exe
+     1>Done Building Project "C:\Users\sevimcaliskan\Documents\Visual Studio 2013\Projects\ehehe\ehehe\ehehe.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:10:38.59
